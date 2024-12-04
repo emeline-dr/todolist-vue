@@ -1,0 +1,45 @@
+## Exercice : Application Todo List en Vue.js avec Tailwind CSS
+
+[Inspiration](https://codepen.io/BringCreativity/pen/XWxvxNP)
+
+### Objectif
+Développer une application Todo List en utilisant Vue.js, en stockant l'état de la liste dans le local storage 
+et en utilisant PUG pour le templating HTML. Le style de l'application sera géré avec Tailwind CSS. 
+Ajoutez une fonctionnalité pour filtrer les tâches faites et non faites.
+
+### Instructions
+
+#### 1. Configuration du projet
+- Créez un nouveau projet Vue.js.
+- Installez et configurez PUG pour le templating et Tailwind CSS pour le style.
+
+#### 2. Structure et Style de l'application
+- Utilisez Tailwind CSS pour styler les composants de l'application en vous inspirant du modèle fourni.
+- Créez les composants `TodoList`, `TodoItem` et `TodoForm` avec le style approprié.
+
+#### 3. Gestion du State et Local Storage
+- Gérez l'état de l'application avec Vue.js.
+- Synchronisez l'état avec le local storage pour la persistance des données.
+
+#### 4. Fonctionnalités CRUD
+- **Créer** : Permettez l'ajout de nouvelles tâches.
+- **Lire** : Affichez les tâches existantes.
+- **Mettre à jour et Supprimer** : Offrez les options d'édition et de suppression des tâches.
+
+#### 5. Filtrage des Tâches
+- Ajoutez des boutons ou des onglets pour filtrer les tâches en fonction de leur état (faites ou non faites).
+- Implémentez la logique de filtrage dans Vue.js pour changer dynamiquement l'affichage des tâches selon le filtre sélectionné.
+
+#### 6. Page Single pour Chaque Todo
+- Mettez en place un routage pour chaque tâche avec Vue Router.
+- Sur la page dédiée, permettez la visualisation, l'édition et la suppression de la tâche.
+
+#### 7. Bonus
+- Ajoutez des animations lors de l'ajout ou de la suppression des tâches.
+- Assurez-vous que l'application est responsive et bien présentée sur différents appareils.
+
+### Ressources
+- [Vue.js](https://vuejs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [PUG](https://pugjs.org/api/getting-started.html)
+- [Vue Router](https://router.vuejs.org/)
